@@ -1,45 +1,74 @@
+/* Body and General Style */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Arial', sans-serif;  /* Example font, you can change this */
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  background-color: #f9f9f9;  /* Light background for contrast */
 }
 
 header {
-  background: #007bff;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
+  background-color: #0044cc;  /* Deep blue header */
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-header nav ul {
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Logo */
+header .logo {
+  width: 50px;  /* Adjust logo size */
+  height: auto;
+}
+
+/* Navigation Bar */
+nav ul {
+  display: flex;
   list-style: none;
-  padding: 0;
 }
 
-header nav ul li {
-  display: inline;
-  margin: 0 10px;
+nav ul li {
+  margin: 0 15px;
 }
 
-header nav ul li a {
-  color: #fff;
+nav ul li a {
+  color: white;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
 main {
-  padding: 2rem;
+  padding: 20px;
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 30px;
 }
 
+h2 {
+  color: #0044cc;  /* Matching section title color */
+}
+
+/* Footer */
 footer {
+  background-color: #333;
+  color: white;
   text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: #fff;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
 }
