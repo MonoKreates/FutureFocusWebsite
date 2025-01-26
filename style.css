@@ -1,6 +1,7 @@
 /* Body and General Style */
 body {
-  font-family: 'Arial', sans-serif;  /* Example font, you can change this */
+  font-family: 'Anton SC', serif;  /* Example font, you can change this */
+  font-stlye: normal;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;  /* Light background for contrast */
